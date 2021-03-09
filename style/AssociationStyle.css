@@ -1,0 +1,49 @@
+.containerAssoc {
+    display: flex;
+}
+
+.presentationAssoc {
+    color: Gold;
+}
+
+.colonne1,
+.colonne2 {
+    width: 50%;
+    color: white;
+    font-family: 'Righteous', cursive;
+    background-color: black;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.textAssoc1,
+.textAssoc2 {
+    text-align: start;
+    padding-bottom: 5em;
+    padding-left: 4em;
+    font-size: 60px;
+}
+
+.presentationAssoc p span {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: aliceblue;
+    color: White;
+}
+
+.presentationAssoc p {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 1.7em;
+}
+
+.mapAssoc {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+}
