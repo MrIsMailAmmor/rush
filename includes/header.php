@@ -6,6 +6,7 @@
     <link rel="stylesheet" href='/rush/style/style.css' />
     <link rel="stylesheet" href='/rush/style/carousel.css' />
     <link rel="stylesheet" href='/rush/style/AssociationStyle.css' />
+    <link rel="stylesheet" href='/rush/style/peterPan.css' />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
     <link rel=" preconnect" href="https://fonts.gstatic.com">

@@ -39,9 +39,9 @@
     font-size: 1.7em;
 }
 
-.mapAssoc {
-    width: 70%;
-    height: 500px;
+.googleMap {
+    height: 400px;
+    width: 50%;
     background-color: white;
     margin: auto;
     margin-top: 50px;

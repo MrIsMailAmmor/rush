@@ -1,7 +1,7 @@
 <?php
 
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/header.php";
+// $path = $_SERVER['DOCUMENT_ROOT'];
+$path = "./includes/header.php";
 include_once($path);
 
 ?>
@@ -32,14 +32,14 @@ include_once($path);
 
     <div class="content">
         <div class="contentbox1">
-            <div class="content1"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-            <div class="content1"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-            <div class="content1"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
+            <div class="content1"><a href=""><img src="img/CoverArticle6.jpg" alt=""></a></div>
+            <div class="content1"><a href=""><img src="img/CoverArticle5.jpg" alt=""></a></div>
+            <div class="content1"><a href=""><img src="img/CoverArticle4.jpg" alt=""></a></div>
         </div>
         <div class="contentbox2">
-            <div class="content2"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-            <div class="content2"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-            <div class="content2"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
+            <div class="content2"><a href=""><img src="img/CoverArticle9" alt=""></a></div>
+            <div class="content2"><a href=""><img src="img/CoverArticle.jpg" alt=""></a></div>
+            <div class="content2"><a href=""><img src="img/CoverArticle8.jpg" alt=""></a></div>
         </div>
 
     </div>
@@ -52,9 +52,9 @@ include_once($path);
         <h1>Nos Événement </h1>
     </div>
     <div class="grandEvenement">
-        <div class="evenement"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-        <div class="evenement"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
-        <div class="evenement"><a href=""><img src="img/imgCouverture1.jpg" alt=""></a></div>
+        <div class="evenement"><a href=""><img src="img/CoverArticle1" alt=""></a></div>
+        <div class="evenement"><a href=""><img src="img/CoverArticle2" alt=""></a></div>
+        <div class="evenement"><a href=""><img src="img/CoverArticle3" alt=""></a></div>
     </div>
 
 
@@ -65,10 +65,7 @@ include_once($path);
 <!-- footer -->
 
 
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/footer.php";
-include_once($path); ?>
+<?php
+$path = "./includes/footer.php";
+include($path); ?>
 <!-- footer end -->
-</body>
-
-</html>

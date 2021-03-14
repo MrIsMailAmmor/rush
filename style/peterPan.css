@@ -1,0 +1,299 @@
+.peterSection {
+    background: gold;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peterSection .sectionUn h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Zilla Slab', serif;
+    padding-left: 20px;
+}
+
+.sectionUn {
+    display: flex;
+    margin: auto;
+}
+
+.peterSection .sectionUn img {
+    width: 50px;
+}
+
+.peterSection p {
+    margin: auto;
+    font-size: 45px;
+}
+
+.peterSection p a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.sectionDeux p {
+    text-align: justify;
+    font-size: 30px;
+    font-weight: bold;
+    background: Gold;
+    padding: 10px 10px;
+}
+
+.sectionDeux {
+    display: flex;
+    font-family: 'Zilla Slab', serif;
+    background: gold;
+    border-top: 3px black solid;
+    padding: 20px 10px;
+}
+
+@media only screen and (max-width:1256px) {
+    .sectionDeux {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+}
+
+.sectionDeux img {
+    border-radius: 20px;
+    background-color: gold;
+    padding: 0 10px;
+    width: 600px;
+}
+
+.sectionDeux img:hover {
+    transform: scaleX(-1);
+}
+
+
+/* Lykeon CSS */
+
+.LykSection {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zilla Slab', serif;
+}
+
+.LykSection p {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* begining of chess Club */
+.chessClub {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Zilla Slab', serif;
+}
+
+.chessBanner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoChess {
+    width: 30%;
+    display: flex;
+    padding: 5px 0;
+    margin: auto;
+}
+
+.logoChess h1 {
+    color: black;
+    padding: 10px 5px;
+    font-size: 76px;
+}
+
+.chessBanner .logoChess img {
+    height: 100px;
+    width: 100px;
+    border-right: 2px solid black;
+    padding: 5px;
+}
+
+.ChessText {
+    width: 60%;
+    margin: auto;
+}
+.ChessText:hover  h3{
+    background: black;
+    transition: 1.5s;
+    border-radius: 20%;
+}
+.ChessText h3 {
+    font-size: 30px;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.ChessText img {
+    border-radius: 10%;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+.chessBanner img:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 30px;
+}
+
+.chessClub p {
+    width: 60%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: justify;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+/* Ujam */
+
+.Jam {
+    background: gold;
+}
+
+.Jam h1,
+.Jam p {
+
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.5em;
+
+}
+
+.Jam p {
+    padding: 100px;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+    background: black;
+    color: gold;
+}
+
+.Jam p span {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Jam span i {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: auto;
+}
+
+/* GN */
+
+.Gn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0;
+    font-family: 'Zilla Slab', serif;
+    background: black;
+    justify-content: space-around;
+
+}
+
+.Gn p span {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: flex;
+    margin: auto;
+}
+
+.Gn p {
+    font-weight: 300;
+    width: 40%;
+    margin: auto;
+    font-size: 2em;
+    color: white;
+    padding: 50px;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.Gn img {
+    width: 600px;
+    background-color: gold;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20%;
+    transition: 1s;
+}
+
+.Gn img:nth-child(2) {
+    display: none;
+}
+
+.Gn p span i {
+    color: #f77f00;
+    margin: auto;
+    width: 50%;
+}
+
+
+@media (max-width:1068px) {
+    .Gn {
+        flex-wrap: wrap;
+    }
+
+    .Gn img {
+        width: 50%;
+        margin: auto;
+    }
+
+    .Gn p {
+        width: 60%;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .Gn p span {
+        text-align: center;
+    }
+
+    .Gn img:nth-child(1) {
+        display: none;
+    }
+
+    .Gn img:nth-child(2) {
+        display: block;
+        background-color: red;
+
+    }
+
+    .Gn img:hover {
+        background: white;
+        transition: 1s;
+        border-radius: 0%;
+    }
+
+}

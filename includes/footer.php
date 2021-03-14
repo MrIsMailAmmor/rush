@@ -32,5 +32,7 @@
             </div>
             </footer>
         </div>
-        
+        </body>
+
+</html>
     <!--  fin du Footer    -->
