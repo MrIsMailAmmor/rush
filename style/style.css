@@ -245,6 +245,7 @@
         margin: auto;
         padding-top: 3%;
         padding-bottom: 3%;
+        flex-wrap: wrap;
     }
 
     .evenement {

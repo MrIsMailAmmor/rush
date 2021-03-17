@@ -1,7 +1,7 @@
 <?php
 
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/header.php";
+
+$path = "../includes/header.php";
 include_once($path);
 ?>
 
@@ -11,7 +11,6 @@ include_once($path);
         <img src="/rush/img/logoPeterPan.png" alt="">
         <h1> Peter Pan </h1>
     </div>
-
     <p><a href="">projetpeterpan.rush@gmail.com</a> </p>
 </div>
 
@@ -25,11 +24,9 @@ include_once($path);
         Désormais nous faisons de l’accompagnement étudiant, de l’aide pour les démarches administratives, de la
         distribution alimentaire ou encore grâce à nos partenaires tel que la Croix Rouge ou encore l’Escale Étudiante.
         Nous parvenons grâce à eux à aider et à faire toujours mieux pour continuer à aider les étudiants. </p>
-
     <img src="/rush/img/nourriture.jpg" alt="image de nourriture">
 </div>
 
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/footer.php";
+<?php
+$path = "../includes/footer.php";
 include_once($path); ?>
-

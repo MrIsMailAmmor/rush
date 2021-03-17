@@ -1,7 +1,7 @@
 <?php
-
+define("ROOT", __DIR__ ."/");
 // $path = $_SERVER['DOCUMENT_ROOT'];
-$path = "./includes/header.php";
+$path = "includes/header.php";
 include_once($path);
 
 ?>
@@ -66,6 +66,6 @@ include_once($path);
 
 
 <?php
-$path = "./includes/footer.php";
+$path = "includes/footer.php";
 include($path); ?>
 <!-- footer end -->

@@ -38,6 +38,8 @@
     font-weight: bold;
     background: Gold;
     padding: 10px 10px;
+    width: 80%;
+    margin: auto;
 }
 
 .sectionDeux {
@@ -47,24 +49,24 @@
     border-top: 3px black solid;
     padding: 20px 10px;
 }
+.sectionDeux img {
+    border-radius: 20px;
+    background-color: gold;
+    padding: 0 10px;
+    width: 100%;
+}
 
-@media only screen and (max-width:1256px) {
+.sectionDeux img:hover {
+    transform: scaleX(-1);
+}
+
+@media only screen and (max-width:1400px) {
     .sectionDeux {
         flex-wrap: wrap;
         padding: 0;
     }
 }
 
-.sectionDeux img {
-    border-radius: 20px;
-    background-color: gold;
-    padding: 0 10px;
-    width: 600px;
-}
-
-.sectionDeux img:hover {
-    transform: scaleX(-1);
-}
 
 
 /* Lykeon CSS */

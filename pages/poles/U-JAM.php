@@ -1,9 +1,7 @@
-<?php 
+<?php
 
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/header.php";
-include_once($path);
-?>
+$path = "../../includes/header.php";
+include_once($path); ?>
 
 <div class="Jam">
     
@@ -14,8 +12,7 @@ include_once($path);
         Rejoins-nous !!!</p>
 </div>
 
+<?php
 
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/footer.php";
+$path = "../../includes/footer.php";
 include_once($path); ?>
-

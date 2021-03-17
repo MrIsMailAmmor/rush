@@ -1,10 +1,8 @@
-<?php 
+<?php
 
-$path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/header.php";
-include_once($path);
+$path = "../../includes/header.php";
+include_once($path); ?>
 
-?>
 
 <div class="Gn"> 
 <img src="/rush/img/doubleSword" alt="Image de double épee">
@@ -20,6 +18,7 @@ include_once($path);
         
 </div>
 
-<?php $path = $_SERVER['DOCUMENT_ROOT'];
-$path .= "/rush/includes/footer.php";
+<?php
+
+$path = "../../includes/footer.php";
 include_once($path); ?>
