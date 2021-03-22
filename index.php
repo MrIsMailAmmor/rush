@@ -10,7 +10,7 @@ include_once($path);
 <!--  fin du menu   -->
 <!--  Debut du contenu    -->
 <!-- début section accueil -->
-<?php  include_once 'includes/database.php';?>
+
 <div class="accueil">
     <div class="bgAccueil">
         <div class="textAccueil">
