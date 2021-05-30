@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body {
+    background-color: black;
+}
+
+.zone{
+    margin: auto;
+    width: 80%;
+    border: gold 2px solid;
+    padding: 20px;
+}
+
+.message p{
+    font-size: 1.2em;
+    text-align: justify;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message{
+    margin: 10px auto;
+    border: 2px solid white;
+}
+i{
+    color: white;
+    float: right;
+    padding: 5px;
+}
+p{
+    padding: 5px;
+}
+.message h1{
+    padding: 5px;
+}
+h1{
+    font-size: 1.5em;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+}

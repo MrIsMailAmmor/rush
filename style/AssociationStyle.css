@@ -1,49 +1,134 @@
 .containerAssoc {
-    display: flex;
+  display: flex;
 }
 
 .presentationAssoc {
-    color: Gold;
+  color: Gold;
 }
 
 .colonne1,
 .colonne2 {
-    width: 50%;
-    color: white;
-    font-family: 'Righteous', cursive;
-    background-color: black;
-    padding-top: 2em;
-    padding-left: 2em;
+  width: 50%;
+  color: white;
+  font-family: "Righteous", cursive;
+  background-color: black;
+  padding: 2em;
 }
 
-.textAssoc1,
+.textAssoc1{
+  text-align: start;
+  padding-bottom: 6em;
+  padding-left: 6em;
+  font-size: 3em;
+}
+
 .textAssoc2 {
-    text-align: start;
-    padding-bottom: 5em;
-    padding-left: 4em;
-    font-size: 60px;
+  padding-left: 6em;
+  text-align: start;
+  font-size: 3em;
+  padding-top: 4em;
 }
-
 .presentationAssoc p span {
-    font-size: 2.5em;
-    font-weight: 300;
-    color: aliceblue;
-    color: White;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: aliceblue;
+  color: White;
 }
 
 .presentationAssoc p {
-    width: 70%;
-    margin: auto;
-    text-align: justify;
-    padding-top: 10px;
-    font-size: 1.7em;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 1.7em;
+}
+.googleMap img {
+  width: 100%;
+  height: 500px;
+}
+.loca2 {
+  display: none;
+}
+.googleMap {
+  width: 100%;
+  background-color: gold;
+  color: black;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align: center;
 }
 
-.googleMap {
-    height: 400px;
-    width: 50%;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px;
-    padding-top: 50px;
+.lesCadres {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border-radius: 5%;
+}
+.cadreMembre {
+  width: 20%;
+  border: 2px solid black;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5%;
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+.cadreMembre img {
+  width: 60%;
+  border-radius: 20%;
+  height: 250px;
+  margin: auto;
+}
+
+.grpCadre {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff1d2;
+  padding: 50px;
+}
+.lesCadres h1,
+.lesCadres p {
+  text-align: center;
+  color: #323a45;
+  font-size: 15px;
+  padding: 5px;
+  background: #ffffff;
+}
+.grpCadre h1 {
+  color: Black;
+  font-size: 2em;
+  background-color: white;
+  font-family: "Righteous", cursive;
+  border: 2px solid gold;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.cadreMembre p {
+  font-family: "Righteous", cursive;
+  font-weight: bold;
+}
+@media (max-width: 1200px) {
+  .colonne1 {
+    display: none;
+  }
+  .colonne2 {
+    width: 100%;
+    padding: 20px auto;
+  }
+  .cadreMembre {
+    width: 30%;
+  }
+  .cadreMembre p {
+    font-size: 1em;
+  }
+  .loca2 {
+    display: block;
+  }
+  .loca1 {
+    display: none;
+  }
 }

@@ -1,9 +1,6 @@
 <?php
-define("ROOT", __DIR__ ."/");
-// $path = $_SERVER['DOCUMENT_ROOT'];
 $path = "includes/header.php";
 include_once($path);
-
 ?>
 
 
@@ -14,13 +11,13 @@ include_once($path);
 <div class="accueil">
     <div class="bgAccueil">
         <div class="textAccueil">
-            <h1>Bienvenu Chez l'Assocation RUSH</h1>
-            <p> un mini text ici pour parler de l'assoc rapidement</p>
-            <img src="/rush/img/logo.gif" alt="Grand Logo de l'association Rush">
+            <h1>Bienvenue Chez RUSH Créteil</h1>
+            <p> On vous accompagne dans votre vie universitaire </p>
+            <img src="./img/logo.gif" alt="Grand Logo de l'association Rush">
         </div>
     </div>
     <div class="imageAccueil">
-        <img src="/rush/img/logo.gif" alt="Grand Logo de l'association Rush">
+        <img src="./img/logo.gif" alt="Grand Logo de l'association Rush">
     </div>
 
 </div>
@@ -32,16 +29,10 @@ include_once($path);
 
     <div class="content">
         <div class="contentbox1">
-            <div class="content1"><a href=""><img src="img/CoverArticle6.jpg" alt=""></a></div>
-            <div class="content1"><a href=""><img src="img/CoverArticle5.jpg" alt=""></a></div>
-            <div class="content1"><a href=""><img src="img/CoverArticle4.jpg" alt=""></a></div>
+            <div class="content1"><p>Titre 1</p><a href=""><img src="./img/CoverArticle6.jpg" alt="t"></a></div>
+            <div class="content1"><p>Titre 2</p><a href=""><img src="./img/CoverArticle5.jpg" alt="t"></a></div>
+            <div class="content1"><p>Titre 3</p><a href=""><img src="./img/CoverArticle4.jpg" alt="t"></a></div>
         </div>
-        <div class="contentbox2">
-            <div class="content2"><a href=""><img src="img/CoverArticle9" alt=""></a></div>
-            <div class="content2"><a href=""><img src="img/CoverArticle.jpg" alt=""></a></div>
-            <div class="content2"><a href=""><img src="img/CoverArticle8.jpg" alt=""></a></div>
-        </div>
-
     </div>
 </div>
 <!-- fin section d'actualité -->
@@ -49,16 +40,29 @@ include_once($path);
 <!-- début Evenemment -->
 <div class="event">
     <div class="titreEvenement">
-        <h1>Nos Événement </h1>
+        <h1>Nos Événements </h1>
     </div>
+
+    <?php
+
+    include "includes/database.php";
+    $pdo = connection(HOSTNAME, DBNAME, USER, PASSWD);
+    if (!$pdo) {
+        echo "<p>La connexion à la base de données n'a pas pu être effectuée.</p>\n";
+    }
+    ?>
     <div class="grandEvenement">
-        <div class="evenement"><a href=""><img src="img/CoverArticle1" alt=""></a></div>
-        <div class="evenement"><a href=""><img src="img/CoverArticle2" alt=""></a></div>
-        <div class="evenement"><a href=""><img src="img/CoverArticle3" alt=""></a></div>
+        <?php $data = $pdo->query("SELECT * FROM p22_ismail.Evenement ORDER BY id desc Limit 3");
+        while ($rows = $data->fetch(PDO::FETCH_OBJ)) :
+        ?>
+
+            <div class="evenement"><a href="./Evenementielle.php">
+                    <p><?php echo $rows->Title ?></p>
+                    <img src="./img/evenement/<?php echo $rows->Img ?>" alt="<?php echo $rows->Title ?>">
+                </a>
+            </div>
+        <?php endwhile ?>
     </div>
-
-
-
 </div>
 <!-- fin evenement -->
 <!--  fin du contenu    -->

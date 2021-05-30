@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/home/etudiants/master/promo22/ismail/public_html/web_serveur/rush/Communication/.htpasswd"
+Require valid-user

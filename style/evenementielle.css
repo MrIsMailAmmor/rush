@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.grandBoxEvent {
+  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+
+}
+.textZone img{
+  width: 200px;
+  border-radius: 5%;
+}
+.textZone{
+  display: flex;
+
+}
+.lesEvents {
+  width: 80%;
+  border: 2px solid white;
+  background-color: gold;
+  color: black;
+  border-radius: 5%;
+  margin: 10px auto;
+}
+
+.span {
+  float:inline-end;
+  font-style: italic;
+  opacity: 0.5;
+  padding: 10px;
+}
+.lesEvents p {
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 20px;
+}
+
+.lesEvents h1 {
+  text-align: center;
+  padding: 20px;
+}
