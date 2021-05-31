@@ -76,7 +76,7 @@ include "./header.php";
             <h2>Modifier une offre</h2>
             <form action="index.php" method="post" autocomplete="off">
 
-                <label for="id">ID de l'article</label>
+                <label for="id">ID de l'offre</label>
                 <input type="text" name="id" required="required" placeholder="id de l'offre">
 
                 <label for="title">Titre</label>

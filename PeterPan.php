@@ -4,7 +4,23 @@ include_once($path);
 ?>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
+<style>
+    * {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
 
+    *:before,
+    *:after {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+    a:hover{
+        color: black;
+    }
+</style>
 
 
 <div class="peterSection">
@@ -66,4 +82,3 @@ include_once($path);
 <?php
 $path = "./includes/footer.php";
 include_once($path); ?>
-
