@@ -1,5 +1,5 @@
 # rush
-Projet Association
+Projet Association RUSH-Créteil
 
 Projet realisé dans le cadre du projet universitaire.
 
