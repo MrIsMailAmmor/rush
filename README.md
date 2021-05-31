@@ -1,9 +1,9 @@
 # rush
 Projet Association
 
-Projet en cours de réalisation dans le cadre de projet universitaire.
+Projet realisé dans le cadre du projet universitaire.
 
-pour le moment contient que du HTML/CSS/JAVASCRIPT/PHP/MYSQL
+Développé avec  du HTML/CSS/JAVASCRIPT/PHP/MYSQL - Bootstrap
 
 Contient des fonctions d'accessibilité
 
